@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: black;
 
     color: #ACF4F4;
@@ -16,6 +17,7 @@ letter-spacing: -2px;
 
 section{
     overflow-x: hidden;
+    overflow-y: hidden;
     padding: 20px;
 }
 
@@ -27,6 +29,10 @@ p{
     font-size: 0.5em;
 }
 
+a{
+    text-decoration: none;
+    
+}
 
 
 

@@ -4,10 +4,10 @@ secondPage = document.querySelector("#secondPage")
 
 searchButton = document.querySelector("#joinSearch")
 
-searchButton.addEventListener("click", () => {
-    firstPage.classList.add("hidden");
-    secondPage.classList.remove("hidden");
-  });
+// searchButton.addEventListener("click", () => {
+//     firstPage.classList.add("hidden");
+//     secondPage.classList.remove("hidden");
+//   });
   
 
 
