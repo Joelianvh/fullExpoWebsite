@@ -34,8 +34,37 @@ a{
     
 }
 
+img{
+  position: absolute;
+  transform: translate(-50%, 10%);
+  width: 80vw;
+  z-index: 10;
+}
 
+.popIn{
 
+  animation: popIn 250ms 2 linear;
+}
+
+@keyframes popIn {
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+  
+}
+
+#secondPage{
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+
+}
 
 #backgroundContainer {
     position: absolute;
